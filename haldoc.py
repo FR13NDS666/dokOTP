@@ -91,7 +91,11 @@ while True:
 		os.system('clear')
 		print("""
 
-              ___|\  /|___
+
+
+
+
+                ___|\  /|___
            /                     \
          /                         \
        /   /|(  *  ) (  *  )|\   \
@@ -107,9 +111,14 @@ while True:
 
 		
 
-              [ Tanya Dokter OTP ]
-		 - By FR13NDS -
 
+
+
+
+              [ Tanya Dokter OTP ]
+              	 - By FR13NDS -
+
+               'Jangan di recode'
 [ Spam List ]
 1. Alodokter.com
 2. Klikdokter.com
