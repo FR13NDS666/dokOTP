@@ -96,17 +96,15 @@ while True:
 
 
               
-╔════════════════╕
-║ WELCOME
-╠════════════════╡
-║DOKTER OTP                                             
-╚════════════════●
+              ╔════════════════|
+              ║      WELCOME       
+              ╠════════════════|
+              ║     DOKTER OTP                                             
+              ╚════════════════|
 
-              [ Tanya Dokter OTP ]
+                 [ Dokter OTP ]
               	 - By FR13NDS -
-
                'Jangan di recode'
-*🔰₱IۣۜŘΔۜۜ₮Σ$͡[❍ℱℭ]🔰*
  ┊, ▇▇▇▇▇ 
 ┊┊▇▇▇▇▇
 ┊┊▇▇▇▇▇
@@ -117,9 +115,9 @@ while True:
 ╰╯┊┊╭╰━━━╮       
 ┊┳┳╯╰━━━╮┃      
 ┊┃┃━╯╰━┊╰╯       X1[ Spam List ]
-┊┃╰┳┳┳┳┛        1.Alodokter.com
-┊╰━┻┻┻┻━╮       2.klikdkter.com
-┊┊┊┊┊┊┊┊┃       3.prosehat.com
+┊┃╰┳┳┳┳┛ _-_-_-_-_ _-_-_-_1.Alodokter.com
+┊╰━┻┻┻┻━╮ _-_-_-_-_ -_-_- 2.klikdkter.com
+┊┊┊┊┊┊┊┊┃-_-_-_-_- -_-_-_-3.prosehat.com
 ╰━━━━━━━╯
 ீ͜ৡৢ͜͡₱₳℧ℒቾ₷₮₳ 
 	""")
