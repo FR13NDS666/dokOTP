@@ -90,7 +90,24 @@ while True:
 	try:
 		os.system('clear')
 		print("""
-		[ Tanya Dokter OTP ]
+
+              ___|\  /|___
+           /                     \
+         /                         \
+       /   /|(  *  ) (  *  )|\   \
+     /   /  |                  |  \   \
+   /   /    |                  |    \   \
+            /         .         \
+          /                       \
+         |           \ı/           |
+         |             |             |
+          \           |           /
+            \         |         /
+              |        |        |
+
+		
+
+              [ Tanya Dokter OTP ]
 		 - By FR13NDS -
 
 [ Spam List ]
